@@ -32,4 +32,8 @@ function CopytoDir(firstDirectory, secondDirectory, ext) {
   });
 }
 
-CopytoDir("E:React-mosh", "E:playlist", "mp4"); // just an example
+CopytoDir(
+  "./first/directory",
+  "./second/directory",
+  "extension(mp4,html,..etc)"
+); // just an example
